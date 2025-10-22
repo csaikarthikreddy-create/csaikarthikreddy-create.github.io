@@ -18,7 +18,7 @@ A deep learning model built with **PyTorch** that classifies objects across 10 c
 - Visualized filters and feature maps for explainability  
 - Deployed via **FastAPI** + **Docker**
 
-### 🤖 [2. AI Chatbot Assistant](https://github.com/yourusername/ai-chatbot)
+### 🤖 [2. AI Chatbot Assistant]([https://github.com/csaikarthikreddy-create/local-rag-chatbot/tree/main])
 A contextual chatbot powered by **OpenAI API** and **LangChain**, with a custom React front end.  
 - Uses embeddings for long-term memory  
 - Built with Node.js backend for event-driven messaging  
