@@ -30,11 +30,11 @@ An interactive web app that applies artistic styles to photos in real time.
 - Integrated with Flask + React for smooth UX  
 - Deployed demo: [style-transfer-demo.netlify.app](https://style-transfer-demo.netlify.app)
 
-### 📊 [4. AI-Powered Resume Analyzer](https://github.com/yourusername/resume-analyzer)
-NLP pipeline that evaluates resumes and matches them to job descriptions.  
-- Used **spaCy**, **HuggingFace Transformers**, and **scikit-learn**  
-- Outputs matching score, skill gaps, and improvement suggestions  
-- Dockerized microservice with REST API endpoints
+### 📊 [4. AI-Powered Fake News Checker](https://github.com/csaikarthikreddy-create/fake-news-checker)
+AI agents check the veracity of a new article.  
+- Used **crewai**, **Google gemini 2.5 LLM**,**serper** and **streamlit**  
+- Each agent is assigned a role, task and tools to perform specialized functions 
+- User needs to enter the News article title in the front end
 
 ---
 
