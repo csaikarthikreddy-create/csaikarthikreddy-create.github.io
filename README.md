@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/csaikarthikreddy-create" alt="Sai Karthik" width="150" style="border-radius:50%;">
+</p>
+
 # 👋 Hi, I'm Sai Karthik Chittamuru
 
 🎯 **AI Engineer | Software Developer | Machine Learning Enthusiast**
