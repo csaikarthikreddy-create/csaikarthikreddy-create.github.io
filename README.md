@@ -15,7 +15,7 @@ A little bit about my life story. I was raised in a middle class family in Chenn
 
 ## 🚀 Featured AI Projects
 
-### 🧩 [1. CNN Image Classifier](https://github.com/yourusername/cnn-image-classifier)
+### 🧩 [1. CNN Image Classifier](https://github.com/csaikarthikreddy-create/Nail-Disease-Classification-Application)
 A deep learning model built with **PyTorch** that classifies objects across 10 categories with 92% accuracy.  
 - Implemented data augmentation and learning-rate scheduling  
 - Visualized filters and feature maps for explainability  
