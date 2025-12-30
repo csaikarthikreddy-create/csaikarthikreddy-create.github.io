@@ -44,7 +44,7 @@ AI agents check the veracity of a new article.
 ## 🧰 Tech Stack
 
 **Languages:** Python, JavaScript (ES6+), Java, SQL  
-**AI / ML Frameworks:** PyTorch, TensorFlow, Scikit-learn, OpenCV, LangChain  
+**AI / ML Frameworks:** PyTorch, TensorFlow, Scikit-learn, OpenCV, LangChain, LangGraph, ADK  
 **Web / Backend:** React, Node.js, Spring Boot, FastAPI  
 **DevOps:** Docker, GitHub Actions, AWS, Render  
 **Data Tools:** Pandas, NumPy, Matplotlib, Seaborn  
@@ -69,7 +69,7 @@ AI agents check the veracity of a new article.
 
 ## 📫 Get in Touch
 
-📧 **Email:** [youremail@example.com](mailto:youremail@example.com)  
+📧 **Email:** [csaikarthikreddy@gmail.com](csaikarthikreddy@gmail.com)  
 💼 **LinkedIn:** [linkedin.com/in/saikarthikchittamuru](https://linkedin.com/in/saikarthikchittamuru)  
 🌐 **Portfolio Website:** [https://csaikarthikreddy-create.github.io](https://csaikarthikreddy-create.github.io)  
 📂 **All Repositories:** [github.com/csaikarthikreddy-create](https://github.com/csaikarthikreddy-create)
