@@ -39,7 +39,7 @@ AI agents check the veracity of a new article.
 - Each agent is assigned a role, task and tools to perform specialized functions 
 - User needs to enter the News article title in the front end
 
-###[5.Shop Mini AI Personalization](https://github.com/csaikarthikreddy-create/shop-mini-AI-personalization)
+### [5.Shop Mini AI Personalization](https://github.com/csaikarthikreddy-create/shop-mini-AI-personalization)
 An AI-powered Shopify Shop Mini app that provides personalized product recommendations using Google ADK agents, Arca MCP for memory management, and the Shop Minis React SDK.
 -AI-Powered Recommendations: Uses Google ADK with Gemini models for intelligent product recommendations
 -Memory Management: Arca MCP integration for persistent user preference storage
