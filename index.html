@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sai Karthik Chittamuru</title>
+<style>
+  :root{
+    --bg:#fdfcfa;
+    --text:#22221f;
+    --text-dim:#6b6a63;
+    --border:#e6e4dd;
+    --accent:#5b4636;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Georgia','Iowan Old Style',serif;
+    line-height:1.75;
+  }
+  a{color:var(--accent);text-decoration:underline;text-decoration-color:#5b463655;}
+  a:hover{text-decoration-color:var(--accent);}
+  .wrap{max-width:680px;margin:0 auto;padding:80px 24px 100px;}
+
+  header.hero{text-align:center;margin-bottom:64px;}
+  header.hero img{width:96px;height:96px;border-radius:50%;margin-bottom:24px;filter:grayscale(15%);}
+  header.hero h1{font-size:32px;font-weight:400;margin:0 0 10px;letter-spacing:.01em;}
+  header.hero .role{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-size:12px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--text-dim);
+  }
+
+  section{margin-top:56px;}
+  h2.section-title{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-size:11px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--text-dim);
+    text-align:center;
+    margin-bottom:32px;
+  }
+  h2.section-title::before,h2.section-title::after{content:"";display:inline-block;width:24px;height:1px;background:var(--border);vertical-align:middle;margin:0 12px 3px;}
+
+  .prose p{margin:0 0 20px;color:var(--text);font-size:17px;}
+
+  .project{
+    padding:28px 0;
+    border-bottom:1px solid var(--border);
+  }
+  .project:last-child{border-bottom:none;}
+  .project h3{margin:0 0 8px;font-size:19px;font-weight:400;}
+  .project p{margin:0 0 10px;color:var(--text-dim);font-size:16px;}
+  .project .meta{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-size:12px;
+    color:var(--text-dim);
+    letter-spacing:.02em;
+  }
+
+  .stack-line{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-size:14px;
+    color:var(--text-dim);
+    margin-bottom:14px;
+  }
+  .stack-line strong{color:var(--text);font-weight:600;}
+
+  ul.plain{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-size:15px;
+    color:var(--text);
+    margin:0;padding-left:20px;
+  }
+  ul.plain li{margin-bottom:10px;}
+
+  .contact{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    text-align:center;
+    font-size:15px;
+  }
+  .contact div{margin-bottom:10px;}
+  .contact .k{color:var(--text-dim);font-size:12px;letter-spacing:.06em;text-transform:uppercase;display:block;margin-bottom:2px;}
+
+  footer{
+    margin-top:80px;
+    text-align:center;
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-size:13px;
+    color:var(--text-dim);
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <img src="https://avatars.githubusercontent.com/csaikarthikreddy-create" alt="Sai Karthik">
+    <h1>Sai Karthik Chittamuru</h1>
+    <div class="role">AI Engineer &middot; Software Developer &middot; ML Enthusiast</div>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">About</h2>
+    <div class="prose">
+      <p>I'm passionate about building intelligent systems that combine data, automation, and human creativity. I'm currently pursuing a master's in Artificial Intelligence Systems Management at Carnegie Mellon University, with interests spanning Agentic AI, LLMs, Deep Learning, Computer Vision, and Generative AI.</p>
+      <p>I was raised in a modest family in Chennai, a coastal city in India. As a child, education was a means to independence, growth and recognition in society, and I was a diligent student who prioritised it. From a young age I was drawn to entrepreneurship, a trait that felt genetically imbued — the satisfaction of building things from scratch gave me an adrenaline rush.</p>
+      <p>At 24, while working as a software developer at Cognizant Technology Solutions, I started my first business — a small 20-seater restaurant/cafe focused on Indo-Asian cuisine. It grew into three outlets across prime locations within five years.</p>
+      <p>While running that business, I came to believe technology, and AI specifically, was a powerful medium to make a substantial impact on society. I upskilled in Salesforce and joined CRMIT Solutions in 2022, working as a Lead Salesforce Developer on client implementations until I relocated to the United States.</p>
+      <p>My motto has always been: "Learning is a lifelong journey, and anyone who stops learning moves into oblivion." I made one of the hardest decisions of my life — returning to academia 15 years after completing my undergraduate degree in 2010 — and am now pursuing my master's at Carnegie Mellon.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Featured projects</h2>
+
+    <div class="project">
+      <h3><a href="https://github.com/csaikarthikreddy-create/Nail-Disease-Classification-Application">CNN Image Classifier</a></h3>
+      <p>A deep learning model built with PyTorch that classifies objects across 10 categories with 92% accuracy — data augmentation, learning-rate scheduling, and explainability via feature-map visualization, deployed with FastAPI and Docker.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/csaikarthikreddy-create/amd-research-portal/blob/phase3/README.md">Personal Research Portal</a></h3>
+      <p>A baseline RAG pipeline over a corpus of papers on trustworthy RAG evaluation methods, using all-MiniLM-L6-v2 embeddings, sliding-window chunking, FAISS indexing, and a Streamlit front end.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/csaikarthikreddy-create/shop-mini-AI-personalization">Shop Mini AI Personalization</a></h3>
+      <p>An AI-powered Shopify Shop Mini app offering personalized product recommendations via Google ADK agents, Arca MCP memory management, and the Shop Minis React SDK.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/csaikarthikreddy-create/local-rag-chatbot/tree/main">AI Chatbot Assistant</a></h3>
+      <p>A contextual chatbot powered by the OpenAI API and LangChain, with a custom React front end, embeddings for long-term memory, and a Node.js backend — deployed on Render with OAuth.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/yourusername/style-transfer">Neural Style Transfer App</a></h3>
+      <p>An interactive web app that applies artistic styles to photos in real time, built with TensorFlow and a Flask + React front end. Demo: style-transfer-demo.netlify.app.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/csaikarthikreddy-create/fake-news-checker">AI-Powered Fake News Checker</a></h3>
+      <p>AI agents that check the veracity of a news article, using CrewAI, Google Gemini 2.5, Serper, and Streamlit — each agent assigned a role, task, and tools.</p>
+    </div>
+  </section>
+
+  <section id="stack">
+    <h2 class="section-title">Tech stack</h2>
+    <div class="stack-line"><strong>Languages —</strong> Python, JavaScript (ES6+), Java, SQL</div>
+    <div class="stack-line"><strong>AI / ML —</strong> PyTorch, TensorFlow, Scikit-learn, OpenCV, LangChain, LangGraph, ADK</div>
+    <div class="stack-line"><strong>Web / Backend —</strong> React, Node.js, Spring Boot, FastAPI</div>
+    <div class="stack-line"><strong>DevOps —</strong> Docker, GitHub Actions, AWS, Render</div>
+    <div class="stack-line"><strong>Data tools —</strong> Pandas, NumPy, Matplotlib, Seaborn</div>
+  </section>
+
+  <section id="learning">
+    <h2 class="section-title">Current learning &amp; research</h2>
+    <ul class="plain">
+      <li>Building multi-agent systems using LangGraph, Google ADK and the OpenAI API</li>
+      <li>Exploring transformer architectures and fine-tuning LLMs</li>
+      <li>Optimizing deep learning pipelines for efficiency and interpretability</li>
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2 class="section-title">Certifications</h2>
+    <ul class="plain">
+      <li>Salesforce Certified Service Cloud Consultant</li>
+      <li>Salesforce Certified Data Cloud Consultant</li>
+      <li>Salesforce Certified JavaScript Developer</li>
+      <li>Salesforce Certified Platform Developer 2</li>
+      <li>Salesforce Certified Platform Developer 1</li>
+      <li>Salesforce Certified Administrator</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Get in touch</h2>
+    <div class="contact">
+      <div><span class="k">Email</span><a href="mailto:csaikarthikreddy@gmail.com">csaikarthikreddy@gmail.com</a></div>
+      <div><span class="k">LinkedIn</span><a href="https://linkedin.com/in/saikarthikchittamuru">linkedin.com/in/saikarthikchittamuru</a></div>
+      <div><span class="k">Portfolio</span><a href="https://csaikarthikreddy-create.github.io">csaikarthikreddy-create.github.io</a></div>
+      <div><span class="k">Repositories</span><a href="https://github.com/csaikarthikreddy-create">github.com/csaikarthikreddy-create</a></div>
+    </div>
+  </section>
+
+  <footer>
+    Feel free to explore my repositories, fork projects, or reach out for collaboration on AI/ML research or real-world projects.
+  </footer>
+
+</div>
+</body>
+</html>
